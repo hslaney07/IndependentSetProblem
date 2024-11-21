@@ -1,0 +1,32 @@
+# Greedy Algorithm for Independent Set #
+## Ideas ##
+* The independent set problem asks for the largest subset of vertices in a graph such that no two vertices in the subset are adjacent. 
+* A greedy algorithm provides a simple heuristic approach to this problem. 
+    * It selects vertices iteratively based on a specific criterion (e.g., smallest degree) and removes them along with their neighbors until the graph is empty.
+## Key Components ##
+
+Greedy Selection Criterion:
+* Vertices are selected based on their degree (smallest degree first).
+
+
+Graph Families:
+* Random Graph: 𝐺(𝑛,𝑝) where each edge has a probability 𝑝.
+* Bipartite Graph: Complete bipartite graph 𝐾𝑚,𝑛.
+* Grid Graph: 2D grid, good for modeling lattice structures.
+* Path Graph: Linear graph to test simple chain structures.
+* Cycle Graph: Closed loop graph, adds a cyclical component.
+
+
+Performance Metrics??:
+* Size of the independent set.
+* Composition of the set.
+
+## Visuals ##
+* Interactive visuals are created to help visualize graphs and the independent set.
+* Nodes can be selected to only view their edges.
+* If the node is clicked twice, it will be deselected.
+
+
+## Requirements ##
+* python
+* install: pip install
