@@ -1,0 +1,4 @@
+networkx
+fpdf
+plotly
+matplotlib
