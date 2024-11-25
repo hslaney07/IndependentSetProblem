@@ -1,4 +1,4 @@
-# Greedy Algorithm for Independent Set 
+# Random Algorithm for Independent Set 
 ## Ideas 
 - The [independent set problem](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)) asks for the largest subset of vertices in a graph such that no two vertices in the subset are adjacent. 
 - A random algorithm provides a simple approach to this problem. 
