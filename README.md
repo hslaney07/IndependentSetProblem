@@ -6,7 +6,7 @@
 
 
 ## Installation
-- Requires: python
+Requires: python
 1. Clone the repository
 
 2. Install the requirements
@@ -19,7 +19,7 @@
     python independent-set.py
     ```
     Note:
-    - Explore changing the variables on lines 87-91 to customize the outputs
+    - Explore changing the variables on lines 121-124 to customize the outputs
 
 
 ## Key Components 
@@ -69,6 +69,3 @@ Edges only exist between nodes in 𝐴 and 𝐵.
 #### Ouput:
 - Images save to matplotlib_visuals folder. Within folder, each value of 𝑑 has its own folder
 - pdfs save to pdf_output folder. 
-
-
-

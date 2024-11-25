@@ -118,10 +118,10 @@ if __name__ == "__main__":
         graphs.append([f"Bipartite Graph \n(n1={n1}, n2={n2}, d={d})", create_bipartite_graph(n1=n1, n2=n2, d=d)])
 
     # values to configure when running simulations
-    number_simulations_per_d_value = 3
+    number_simulations_per_d_value = 100
     graph_output = True
     include_list_of_nodes_in_independent_set_in_pdf = True
-    save_to_one_file = True
+    save_to_one_file = False
 
     # set up pdf
     pdf = FPDF()
